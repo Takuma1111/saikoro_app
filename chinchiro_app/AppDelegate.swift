@@ -12,14 +12,35 @@ import UIKit
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
-
-
+    var data: String?
+    var send : Int?
+    var Btmainkazu : Int?
+    var uketori : Int?
+    var mainkazu : Int?
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+        
+        let data_all = UserDefaults.standard
+        data = data_all.object(forKey: "data") as? String
         // Override point for customization after application launch.
+       
+        let send_data = UserDefaults.standard
+        send = send_data.object(forKey: "send") as? Int
+        
+        let Btmainkazu_data = UserDefaults.standard
+        Btmainkazu = Btmainkazu_data.object(forKey: "Btmainkazu") as? Int
+        
+        let uketori_data = UserDefaults.standard
+        uketori = uketori_data.object(forKey: "uketori") as? Int
+        
+        let mainkazu_data = UserDefaults.standard
+        mainkazu = mainkazu_data.object(forKey: "mainkazu") as? Int
         return true
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
+        let data_all = UserDefaults.standard
+            data_all.set(data, forKey: "data")
         // Sent when the application is about to move from active to inactive state. This can occur for certain types of temporary interruptions (such as an incoming phone call or SMS message) or when the user quits the application and it begins the transition to the background state.
         // Use this method to pause ongoing tasks, disable timers, and invalidate graphics rendering callbacks. Games should use this method to pause the game.
     }

@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D1CD1A820B7118400918F73 /* Info_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CD1A720B7118400918F73 /* Info_Storyboard.storyboard */; };
+		2D1CD1AA20B7119000918F73 /* Info_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CD1A920B7119000918F73 /* Info_ViewController.swift */; };
+		2D1CD1AC20B711B800918F73 /* IMG_4022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CD1AB20B711B800918F73 /* IMG_4022.jpg */; };
 		2DD1617820B5023300B27889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1617720B5023300B27889 /* AppDelegate.swift */; };
 		2DD1617A20B5023300B27889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1617920B5023300B27889 /* ViewController.swift */; };
 		2DD1617D20B5023300B27889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1617B20B5023300B27889 /* Main.storyboard */; };
@@ -14,6 +17,36 @@
 		2DD1618220B5023300B27889 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1618020B5023300B27889 /* LaunchScreen.storyboard */; };
 		2DD1618D20B5023400B27889 /* chinchiro_appTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1618C20B5023400B27889 /* chinchiro_appTests.swift */; };
 		2DD1619820B5023400B27889 /* chinchiro_appUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1619720B5023400B27889 /* chinchiro_appUITests.swift */; };
+		2DD161A920B5038800B27889 /* Point_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161A820B5038800B27889 /* Point_ViewController.swift */; };
+		2DD161AB20B503E000B27889 /* Point_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161AA20B503E000B27889 /* Point_Storyboard.storyboard */; };
+		2DD161AE20B50A2700B27889 /* Chinchiro_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161AD20B50A2700B27889 /* Chinchiro_Storyboard.storyboard */; };
+		2DD161B020B50A3400B27889 /* ChinChiro_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161AF20B50A3400B27889 /* ChinChiro_ViewController.swift */; };
+		2DD161B220B543E700B27889 /* Point_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161B120B543E700B27889 /* Point_File.swift */; };
+		2DD161B420B5517600B27889 /* Chinchiro_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161B320B5517600B27889 /* Chinchiro_File.swift */; };
+		2DD161BA20B5592700B27889 /* sample4.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161B620B5592700B27889 /* sample4.png */; };
+		2DD161BB20B5592700B27889 /* sample6.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161B720B5592700B27889 /* sample6.png */; };
+		2DD161BC20B5592700B27889 /* sample1.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161B820B5592700B27889 /* sample1.png */; };
+		2DD161BD20B5592700B27889 /* sample5.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161B920B5592700B27889 /* sample5.png */; };
+		2DD161C020B5593000B27889 /* sample2.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161BE20B5593000B27889 /* sample2.png */; };
+		2DD161C120B5593000B27889 /* sample3.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161BF20B5593000B27889 /* sample3.png */; };
+		2DD161C420B5830100B27889 /* BT_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161C320B5830100B27889 /* BT_ViewController.swift */; };
+		2DD161C620B584D200B27889 /* BT_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161C520B584D200B27889 /* BT_Storyboard.storyboard */; };
+		2DD161C920B5870700B27889 /* BTResult_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161C820B5870700B27889 /* BTResult_ViewController.swift */; };
+		2DD161CB20B5871900B27889 /* BTResult_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161CA20B5871900B27889 /* BTResult_Storyboard.storyboard */; };
+		2DD161D020B587FD00B27889 /* Unknown-5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161CC20B587FD00B27889 /* Unknown-5.jpg */; };
+		2DD161D120B587FD00B27889 /* kurakka-Left.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161CD20B587FD00B27889 /* kurakka-Left.png */; };
+		2DD161D220B587FD00B27889 /* kurakka-right.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161CE20B587FD00B27889 /* kurakka-right.png */; };
+		2DD161D320B587FD00B27889 /* b07ce2df.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161CF20B587FD00B27889 /* b07ce2df.jpg */; };
+		2DD161E320B698DA00B27889 /* bird-03.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161DF20B698D900B27889 /* bird-03.png */; };
+		2DD161E420B698DA00B27889 /* bird-01.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161E020B698DA00B27889 /* bird-01.png */; };
+		2DD161E520B698DA00B27889 /* bird-04.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161E120B698DA00B27889 /* bird-04.png */; };
+		2DD161E620B698DA00B27889 /* bird-02.png in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161E220B698DA00B27889 /* bird-02.png */; };
+		2DD161F320B6C88400B27889 /* bird.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161E920B6C88400B27889 /* bird.atlas */; };
+		2DD161F420B6C88400B27889 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161EA20B6C88400B27889 /* GameViewController.swift */; };
+		2DD161F520B6C88400B27889 /* Flappy_Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161EB20B6C88400B27889 /* Flappy_Main.storyboard */; };
+		2DD161F720B6C88400B27889 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161EE20B6C88400B27889 /* GameScene.sks */; };
+		2DD161F920B6C88400B27889 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD161F020B6C88400B27889 /* GameScene.swift */; };
+		2DD161FA20B6C88400B27889 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2DD161F120B6C88400B27889 /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +67,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2D1CD1A720B7118400918F73 /* Info_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info_Storyboard.storyboard; sourceTree = "<group>"; };
+		2D1CD1A920B7119000918F73 /* Info_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info_ViewController.swift; sourceTree = "<group>"; };
+		2D1CD1AB20B711B800918F73 /* IMG_4022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4022.jpg; path = ../../../../../Documents/IMG_4022.jpg; sourceTree = "<group>"; };
 		2DD1617420B5023300B27889 /* chinchiro_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chinchiro_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD1617720B5023300B27889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD1617920B5023300B27889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +83,36 @@
 		2DD1619320B5023400B27889 /* chinchiro_appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = chinchiro_appUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD1619720B5023400B27889 /* chinchiro_appUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = chinchiro_appUITests.swift; sourceTree = "<group>"; };
 		2DD1619920B5023400B27889 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DD161A820B5038800B27889 /* Point_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point_ViewController.swift; sourceTree = "<group>"; };
+		2DD161AA20B503E000B27889 /* Point_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Point_Storyboard.storyboard; sourceTree = "<group>"; };
+		2DD161AD20B50A2700B27889 /* Chinchiro_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Chinchiro_Storyboard.storyboard; sourceTree = "<group>"; };
+		2DD161AF20B50A3400B27889 /* ChinChiro_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChinChiro_ViewController.swift; sourceTree = "<group>"; };
+		2DD161B120B543E700B27889 /* Point_File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Point_File.swift; sourceTree = "<group>"; };
+		2DD161B320B5517600B27889 /* Chinchiro_File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chinchiro_File.swift; sourceTree = "<group>"; };
+		2DD161B620B5592700B27889 /* sample4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample4.png; path = "../../../../../Documents/サイコロ/sample4.png"; sourceTree = "<group>"; };
+		2DD161B720B5592700B27889 /* sample6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample6.png; path = "../../../../../Documents/サイコロ/sample6.png"; sourceTree = "<group>"; };
+		2DD161B820B5592700B27889 /* sample1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample1.png; path = "../../../../../Documents/サイコロ/sample1.png"; sourceTree = "<group>"; };
+		2DD161B920B5592700B27889 /* sample5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample5.png; path = "../../../../../Documents/サイコロ/sample5.png"; sourceTree = "<group>"; };
+		2DD161BE20B5593000B27889 /* sample2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample2.png; path = "../../../../../Documents/サイコロ/sample2.png"; sourceTree = "<group>"; };
+		2DD161BF20B5593000B27889 /* sample3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sample3.png; path = "../../../../../Documents/サイコロ/sample3.png"; sourceTree = "<group>"; };
+		2DD161C320B5830100B27889 /* BT_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BT_ViewController.swift; sourceTree = "<group>"; };
+		2DD161C520B584D200B27889 /* BT_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BT_Storyboard.storyboard; sourceTree = "<group>"; };
+		2DD161C820B5870700B27889 /* BTResult_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BTResult_ViewController.swift; sourceTree = "<group>"; };
+		2DD161CA20B5871900B27889 /* BTResult_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = BTResult_Storyboard.storyboard; sourceTree = "<group>"; };
+		2DD161CC20B587FD00B27889 /* Unknown-5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = "Unknown-5.jpg"; path = "../../../../../Documents/サイコロ/素材/Unknown-5.jpg"; sourceTree = "<group>"; };
+		2DD161CD20B587FD00B27889 /* kurakka-Left.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kurakka-Left.png"; path = "../../../../../Documents/サイコロ/素材/kurakka-Left.png"; sourceTree = "<group>"; };
+		2DD161CE20B587FD00B27889 /* kurakka-right.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "kurakka-right.png"; path = "../../../../../Documents/サイコロ/素材/kurakka-right.png"; sourceTree = "<group>"; };
+		2DD161CF20B587FD00B27889 /* b07ce2df.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = b07ce2df.jpg; path = "../../../../../Documents/サイコロ/素材/b07ce2df.jpg"; sourceTree = "<group>"; };
+		2DD161DF20B698D900B27889 /* bird-03.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird-03.png"; path = "../../../../../swift_demo/FlappySwift/FlappyBird/bird.atlas/bird-03.png"; sourceTree = "<group>"; };
+		2DD161E020B698DA00B27889 /* bird-01.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird-01.png"; path = "../../../../../swift_demo/FlappySwift/FlappyBird/bird.atlas/bird-01.png"; sourceTree = "<group>"; };
+		2DD161E120B698DA00B27889 /* bird-04.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird-04.png"; path = "../../../../../swift_demo/FlappySwift/FlappyBird/bird.atlas/bird-04.png"; sourceTree = "<group>"; };
+		2DD161E220B698DA00B27889 /* bird-02.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "bird-02.png"; path = "../../../../../swift_demo/FlappySwift/FlappyBird/bird.atlas/bird-02.png"; sourceTree = "<group>"; };
+		2DD161E920B6C88400B27889 /* bird.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = bird.atlas; sourceTree = "<group>"; };
+		2DD161EA20B6C88400B27889 /* GameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		2DD161EC20B6C88400B27889 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Flappy_Main.storyboard; sourceTree = "<group>"; };
+		2DD161EE20B6C88400B27889 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		2DD161F020B6C88400B27889 /* GameScene.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		2DD161F120B6C88400B27889 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +140,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D1CD1A420B7114200918F73 /* BT */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CD1A620B7116E00918F73 /* Infromation */,
+				2DD161C220B582E400B27889 /* BT_other */,
+				2DD161C720B586E800B27889 /* BT_Result */,
+			);
+			path = BT;
+			sourceTree = "<group>";
+		};
+		2D1CD1A520B7115300918F73 /* Single */ = {
+			isa = PBXGroup;
+			children = (
+				2DD161A520B5032100B27889 /* point */,
+				2DD161AC20B50A1300B27889 /* chinchiro */,
+			);
+			path = Single;
+			sourceTree = "<group>";
+		};
+		2D1CD1A620B7116E00918F73 /* Infromation */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CD1A720B7118400918F73 /* Info_Storyboard.storyboard */,
+				2D1CD1A920B7119000918F73 /* Info_ViewController.swift */,
+			);
+			path = Infromation;
+			sourceTree = "<group>";
+		};
 		2DD1616B20B5023300B27889 = {
 			isa = PBXGroup;
 			children = (
@@ -97,6 +191,10 @@
 		2DD1617620B5023300B27889 /* chinchiro_app */ = {
 			isa = PBXGroup;
 			children = (
+				2D1CD1A520B7115300918F73 /* Single */,
+				2D1CD1A420B7114200918F73 /* BT */,
+				2DD161E720B6C88400B27889 /* FlappyBird */,
+				2DD161B520B5590300B27889 /* saikoro_image */,
 				2DD1617720B5023300B27889 /* AppDelegate.swift */,
 				2DD1617920B5023300B27889 /* ViewController.swift */,
 				2DD1617B20B5023300B27889 /* Main.storyboard */,
@@ -123,6 +221,80 @@
 				2DD1619920B5023400B27889 /* Info.plist */,
 			);
 			path = chinchiro_appUITests;
+			sourceTree = "<group>";
+		};
+		2DD161A520B5032100B27889 /* point */ = {
+			isa = PBXGroup;
+			children = (
+				2DD161A820B5038800B27889 /* Point_ViewController.swift */,
+				2DD161AA20B503E000B27889 /* Point_Storyboard.storyboard */,
+				2DD161B120B543E700B27889 /* Point_File.swift */,
+			);
+			path = point;
+			sourceTree = "<group>";
+		};
+		2DD161AC20B50A1300B27889 /* chinchiro */ = {
+			isa = PBXGroup;
+			children = (
+				2DD161AD20B50A2700B27889 /* Chinchiro_Storyboard.storyboard */,
+				2DD161AF20B50A3400B27889 /* ChinChiro_ViewController.swift */,
+				2DD161B320B5517600B27889 /* Chinchiro_File.swift */,
+			);
+			path = chinchiro;
+			sourceTree = "<group>";
+		};
+		2DD161B520B5590300B27889 /* saikoro_image */ = {
+			isa = PBXGroup;
+			children = (
+				2D1CD1AB20B711B800918F73 /* IMG_4022.jpg */,
+				2DD161E020B698DA00B27889 /* bird-01.png */,
+				2DD161E220B698DA00B27889 /* bird-02.png */,
+				2DD161DF20B698D900B27889 /* bird-03.png */,
+				2DD161E120B698DA00B27889 /* bird-04.png */,
+				2DD161CF20B587FD00B27889 /* b07ce2df.jpg */,
+				2DD161CD20B587FD00B27889 /* kurakka-Left.png */,
+				2DD161CE20B587FD00B27889 /* kurakka-right.png */,
+				2DD161CC20B587FD00B27889 /* Unknown-5.jpg */,
+				2DD161BF20B5593000B27889 /* sample3.png */,
+				2DD161BE20B5593000B27889 /* sample2.png */,
+				2DD161B820B5592700B27889 /* sample1.png */,
+				2DD161B620B5592700B27889 /* sample4.png */,
+				2DD161B920B5592700B27889 /* sample5.png */,
+				2DD161B720B5592700B27889 /* sample6.png */,
+			);
+			path = saikoro_image;
+			sourceTree = "<group>";
+		};
+		2DD161C220B582E400B27889 /* BT_other */ = {
+			isa = PBXGroup;
+			children = (
+				2DD161C320B5830100B27889 /* BT_ViewController.swift */,
+				2DD161C520B584D200B27889 /* BT_Storyboard.storyboard */,
+			);
+			path = BT_other;
+			sourceTree = "<group>";
+		};
+		2DD161C720B586E800B27889 /* BT_Result */ = {
+			isa = PBXGroup;
+			children = (
+				2DD161C820B5870700B27889 /* BTResult_ViewController.swift */,
+				2DD161CA20B5871900B27889 /* BTResult_Storyboard.storyboard */,
+			);
+			path = BT_Result;
+			sourceTree = "<group>";
+		};
+		2DD161E720B6C88400B27889 /* FlappyBird */ = {
+			isa = PBXGroup;
+			children = (
+				2DD161E920B6C88400B27889 /* bird.atlas */,
+				2DD161EA20B6C88400B27889 /* GameViewController.swift */,
+				2DD161EB20B6C88400B27889 /* Flappy_Main.storyboard */,
+				2DD161EE20B6C88400B27889 /* GameScene.sks */,
+				2DD161F020B6C88400B27889 /* GameScene.swift */,
+				2DD161F120B6C88400B27889 /* Info.plist */,
+			);
+			name = FlappyBird;
+			path = ../../../../swift_demo/FlappySwift/FlappyBird;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,9 +404,33 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DD161C120B5593000B27889 /* sample3.png in Resources */,
+				2DD161AB20B503E000B27889 /* Point_Storyboard.storyboard in Resources */,
+				2DD161BC20B5592700B27889 /* sample1.png in Resources */,
+				2DD161E620B698DA00B27889 /* bird-02.png in Resources */,
+				2DD161F720B6C88400B27889 /* GameScene.sks in Resources */,
+				2DD161C020B5593000B27889 /* sample2.png in Resources */,
+				2DD161AE20B50A2700B27889 /* Chinchiro_Storyboard.storyboard in Resources */,
+				2DD161BA20B5592700B27889 /* sample4.png in Resources */,
+				2DD161F520B6C88400B27889 /* Flappy_Main.storyboard in Resources */,
 				2DD1618220B5023300B27889 /* LaunchScreen.storyboard in Resources */,
+				2DD161CB20B5871900B27889 /* BTResult_Storyboard.storyboard in Resources */,
+				2DD161BB20B5592700B27889 /* sample6.png in Resources */,
+				2DD161D220B587FD00B27889 /* kurakka-right.png in Resources */,
+				2DD161E420B698DA00B27889 /* bird-01.png in Resources */,
+				2DD161FA20B6C88400B27889 /* Info.plist in Resources */,
+				2D1CD1AC20B711B800918F73 /* IMG_4022.jpg in Resources */,
 				2DD1617F20B5023300B27889 /* Assets.xcassets in Resources */,
+				2DD161C620B584D200B27889 /* BT_Storyboard.storyboard in Resources */,
+				2DD161D320B587FD00B27889 /* b07ce2df.jpg in Resources */,
 				2DD1617D20B5023300B27889 /* Main.storyboard in Resources */,
+				2D1CD1A820B7118400918F73 /* Info_Storyboard.storyboard in Resources */,
+				2DD161E520B698DA00B27889 /* bird-04.png in Resources */,
+				2DD161E320B698DA00B27889 /* bird-03.png in Resources */,
+				2DD161D020B587FD00B27889 /* Unknown-5.jpg in Resources */,
+				2DD161BD20B5592700B27889 /* sample5.png in Resources */,
+				2DD161F320B6C88400B27889 /* bird.atlas in Resources */,
+				2DD161D120B587FD00B27889 /* kurakka-Left.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +455,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D1CD1AA20B7119000918F73 /* Info_ViewController.swift in Sources */,
 				2DD1617A20B5023300B27889 /* ViewController.swift in Sources */,
+				2DD161A920B5038800B27889 /* Point_ViewController.swift in Sources */,
+				2DD161B220B543E700B27889 /* Point_File.swift in Sources */,
+				2DD161C920B5870700B27889 /* BTResult_ViewController.swift in Sources */,
+				2DD161B420B5517600B27889 /* Chinchiro_File.swift in Sources */,
+				2DD161F920B6C88400B27889 /* GameScene.swift in Sources */,
+				2DD161B020B50A3400B27889 /* ChinChiro_ViewController.swift in Sources */,
+				2DD161C420B5830100B27889 /* BT_ViewController.swift in Sources */,
+				2DD161F420B6C88400B27889 /* GameViewController.swift in Sources */,
 				2DD1617820B5023300B27889 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +515,14 @@
 				2DD1618120B5023300B27889 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		2DD161EB20B6C88400B27889 /* Flappy_Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DD161EC20B6C88400B27889 /* Base */,
+			);
+			name = Flappy_Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
