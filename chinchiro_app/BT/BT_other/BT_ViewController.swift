@@ -167,6 +167,18 @@ MCSessionDelegate,UITextFieldDelegate {
         appDelegate5.Btmainkazu = Int(nyuryokuField.text!)
     }
     
+    
+    
+    
+    @IBAction func tapGesture(_ sender: Any) {
+     view.endEditing(true)
+        let appdelegate5 = UIApplication.shared.delegate as! AppDelegate
+        appdelegate5.Btmainkazu = Int(nyuryokuField.text!)
+        
+    }
+    
+    
+    
     // プラスボタン
     @IBAction func plusBtn(_ sender: Any) {
     

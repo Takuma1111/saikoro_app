@@ -83,7 +83,14 @@ class Point_ViewController: UIViewController {
   
      
     }
- 
+    
+    
+    
+    @IBAction func tapGesture(_ sender: Any) {
+        re_hyouziLabel.text = ten_nyuryoku.text         //賭け点表示
+        view.endEditing(true)
+    }
+    
     @IBAction func backButton(_ sender: UIButton) {
         let vc = UIStoryboard(name: "Main", bundle: nil).instantiateInitialViewController()!
         self.present(vc, animated: true)
