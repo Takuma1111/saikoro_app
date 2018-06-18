@@ -10,6 +10,7 @@
 		2D1CD1A820B7118400918F73 /* Info_Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CD1A720B7118400918F73 /* Info_Storyboard.storyboard */; };
 		2D1CD1AA20B7119000918F73 /* Info_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D1CD1A920B7119000918F73 /* Info_ViewController.swift */; };
 		2D1CD1AC20B711B800918F73 /* IMG_4022.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2D1CD1AB20B711B800918F73 /* IMG_4022.jpg */; };
+		2D2EA9A720D7A3B000144D98 /* BT_other_File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D2EA9A620D7A3B000144D98 /* BT_other_File.swift */; };
 		2DD1617820B5023300B27889 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1617720B5023300B27889 /* AppDelegate.swift */; };
 		2DD1617A20B5023300B27889 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DD1617920B5023300B27889 /* ViewController.swift */; };
 		2DD1617D20B5023300B27889 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DD1617B20B5023300B27889 /* Main.storyboard */; };
@@ -70,6 +71,7 @@
 		2D1CD1A720B7118400918F73 /* Info_Storyboard.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Info_Storyboard.storyboard; sourceTree = "<group>"; };
 		2D1CD1A920B7119000918F73 /* Info_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info_ViewController.swift; sourceTree = "<group>"; };
 		2D1CD1AB20B711B800918F73 /* IMG_4022.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = IMG_4022.jpg; path = ../../../../../Documents/IMG_4022.jpg; sourceTree = "<group>"; };
+		2D2EA9A620D7A3B000144D98 /* BT_other_File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = BT_other_File.swift; path = chinchiro_app/BT/BT_other_File.swift; sourceTree = SOURCE_ROOT; };
 		2DD1617420B5023300B27889 /* chinchiro_app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = chinchiro_app.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DD1617720B5023300B27889 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DD1617920B5023300B27889 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -270,6 +272,7 @@
 			children = (
 				2DD161C320B5830100B27889 /* BT_ViewController.swift */,
 				2DD161C520B584D200B27889 /* BT_Storyboard.storyboard */,
+				2D2EA9A620D7A3B000144D98 /* BT_other_File.swift */,
 			);
 			path = BT_other;
 			sourceTree = "<group>";
@@ -455,6 +458,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2EA9A720D7A3B000144D98 /* BT_other_File.swift in Sources */,
 				2D1CD1AA20B7119000918F73 /* Info_ViewController.swift in Sources */,
 				2DD1617A20B5023300B27889 /* ViewController.swift in Sources */,
 				2DD161A920B5038800B27889 /* Point_ViewController.swift in Sources */,

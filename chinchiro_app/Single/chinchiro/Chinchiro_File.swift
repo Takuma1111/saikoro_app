@@ -25,11 +25,6 @@ func Chinchiro(){
     let random22 = arc4random_uniform(UInt32(range)) + UInt32(min)
     let random33 = arc4random_uniform(UInt32(range)) + UInt32(min)
     
-    //    let random11 = arc4random_uniform(6)     //乱数を生成
-    //  let random22 = arc4random_uniform(6)
-    //let random33 = arc4random_uniform(6)
-    
-    
     var result11: Int = 0       //変数を初期化
     var result22: Int = 0
     var result33: Int = 0
